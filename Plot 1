@@ -1,3 +1,4 @@
 ## Readign the file
 datfile<- "household_power_consumption.txt"
+
 data<- read.table(datfile, header= TRUE, sep=";", stringsAsFactors=FALSE, dec=".")
